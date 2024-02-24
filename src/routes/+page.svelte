@@ -2,6 +2,8 @@
     import jlox from "$lib/assets/jlox.png";
     import gh from "$lib/assets/square-github.svg";
     import linkedin from "$lib/assets/linkedin.svg";
+    import reimbursement from "$lib/assets/reimbursement.png";
+    import bongo from "$lib/assets/bongocat.png";
 </script>
 
 <body class="container">
@@ -12,20 +14,26 @@
                 <h4>Computer Science major</h4>
                 <h4>Software Engineer</h4>
 
-                <br><p>I build software. I also break them.</p>
+                <br />
+                <p>I build software. I also break them.</p>
             </section>
             <section class="links">
-               <a href="https://github.com/dhnpx"><img src={gh} alt="github" class="icon"></a> 
-               <a href="https://linkedin.com/in/hyungjooyoon"><img src={linkedin} alt="linkedin" class="icon"></a>
-            <section>
+                <a href="https://github.com/dhnpx"
+                    ><img src={gh} alt="github" class="icon" /></a
+                >
+                <a href="https://linkedin.com/in/hyungjooyoon"
+                    ><img src={linkedin} alt="linkedin" class="icon" /></a
+                >
+                <section></section>
+            </section>
         </div>
         <div class="content">
             <p class="about">
-                I started programming in 2021 in a bootcamp and I haven't looked 
-                back. I got started in web development, but I started
-                dabbling in cyber security, and Linux not too long after. I
-                learned to enjoy simple, functional programs and subverting the
-                security of systems running them.
+                I started programming in 2021 in a bootcamp and I haven't looked
+                back. I got started in web development, but I started dabbling
+                in cyber security, and Linux not too long after. I learned to
+                enjoy simple, functional programs and subverting the security of
+                systems running them.
             </p>
             <p>
                 Now, I'm a student at Cal State Fullerton to learn more about
@@ -37,7 +45,8 @@
                 tinkering with my system, or trying out new software. If you're
                 a hobbyist too, let's talk about it.
             </p>
-            <h2>Experience</h2><br>
+            <h2>Experience</h2>
+            <br />
             <div class="grid">
                 <div>
                     <span>2024 - Present</span>
@@ -83,7 +92,8 @@
                     </p>
                 </div>
             </div>
-            <h2>Projects</h2><br>
+            <h2>Projects</h2>
+            <br />
             <div class="grid">
                 <a href="https://github.com/dhnpx/jlox">
                     <img src={jlox} alt="jlox" />
@@ -96,7 +106,31 @@
                         a bytecode VM in C.
                     </p>
                 </div>
-            </div>
+            </div><br />
+            <div class="grid">
+                <a href="https://github.com/dhnpx/reimbursement">
+                    <img src={reimbursement} alt="reimbursement" />
+                </a>
+                <div>
+                    <h5>Reimbursement Backend</h5>
+                    <p>
+                        A backend REST api for a reimbursement sytsem in Java
+                        and Javalin. Implemented authentication with hashing and
+                        salting and session management.
+                    </p>
+                </div>
+            </div><br />
+            <div class="grid">
+                <a href="https://github.com/dhnpx/bongocat">
+                    <img src={bongo} alt="bongocat" />
+                </a>
+                <div>
+                    <h5>Bongo Cat OLED Animation and Keymap</h5>
+                    <p>
+                        A custom OLED bongo cat animation and QMK keymap for the Lily58 keyboard. 
+                    </p>
+                </div>
+            </div><br /><br />
         </div>
     </main>
 </body>
@@ -127,10 +161,10 @@
     }
 
     .container {
-        height: 100vh;
+        height: 100%;
         overflow: hidden;
     }
-    
+
     .icon {
         width: 2rem;
         height: 2rem;
@@ -144,7 +178,7 @@
     h4 {
         margin: 0;
     }
-    
+
     .links {
         position: fixed;
         bottom: 0;
