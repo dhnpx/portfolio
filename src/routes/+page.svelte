@@ -36,9 +36,9 @@
                 systems running them.
             </p>
             <p>
-                Now, I'm a student at Cal State Fullerton to learn more about
-                lower level systems. I want to build software that solves
-                problems and more importantly, help others.
+                Now, I'm a Computer Science major at Cal State Fullerton and
+                studying lower level systems. I want to build software that
+                solve problems and more importantly, help others.
             </p>
             <p>
                 In my free time, I'm either planning a new distrohop and
@@ -57,7 +57,7 @@
                     <p>
                         Conduct research and literature review into Cyber
                         Security and attack surfaces of autonomous space
-                        systems. Aggreagte literature and devlop a report and
+                        systems. Compile literature and devlop a report and
                         publish on the findings.
                     </p>
                 </div>
@@ -106,7 +106,8 @@
                         a bytecode VM in C.
                     </p>
                 </div>
-            </div><br />
+            </div>
+            <br />
             <div class="grid">
                 <a href="https://github.com/dhnpx/reimbursement">
                     <img src={reimbursement} alt="reimbursement" />
@@ -119,7 +120,8 @@
                         salting and session management.
                     </p>
                 </div>
-            </div><br />
+            </div>
+            <br />
             <div class="grid">
                 <a href="https://github.com/dhnpx/bongocat">
                     <img src={bongo} alt="bongocat" />
@@ -127,10 +129,12 @@
                 <div>
                     <h5>Bongo Cat OLED Animation and Keymap</h5>
                     <p>
-                        A custom OLED bongo cat animation and QMK keymap for the Lily58 keyboard. 
+                        A custom OLED bongo cat animation and QMK keymap for the
+                        Lily58 keyboard.
                     </p>
                 </div>
-            </div><br /><br />
+            </div>
+            <br /><br />
         </div>
     </main>
 </body>
