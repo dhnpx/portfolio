@@ -29,10 +29,10 @@
         </div>
         <div class="content">
             <p class="about">
-                I started programming in 2021 in a bootcamp and I haven't looked
-                back. I got started in web development, but I started dabbling
-                in cyber security, and Linux not too long after. I learned to
-                enjoy simple, functional programs and subverting the security of
+                I started programming in 2021 in a bootcamp and haven't looked
+                back. I got started in web development, but dabbled in cyber
+                security and Linux not too long after. I learned to enjoy
+                simple, functional programs and subverting the security of
                 systems running them.
             </p>
             <p>
